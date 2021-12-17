@@ -2633,13 +2633,13 @@ if data.Ch_Member.info ~= true then
 send(msg.chat_id_,msg.id_,'✫: شترك في قناة السورس اولآ @BOBBW .')   
 return false 
 end
-Text = "ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sᴏᴜʀᴄʀ ʙᴏʏᴋᴀ\n\n[-  ʙᴏʏᴋᴀ ᴄʜᴀɴɴᴇʟ  .](http://t.me/BOBBW)\n\n[-  ɪɴғᴏ sᴏᴜʀᴄᴇ .](http://t.me/pvv_v)\n\n[-  ʙᴏʏᴋᴀ ᴅᴇᴠᴇʟᴏᴘᴇʀ  .](http://t.me/KKKKK4)\n\n[-  ʙᴏᴛ ʙᴏʏᴋᴀ .](http://t.me/rriebot)"
+Text = "ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sᴏᴜʀᴄʀ ʙᴏʏᴋᴀ\n\n[-  ʙᴏʏᴋᴀ ᴄʜᴀɴɴᴇʟ  .](http://t.me/BOBBW)\n\n[-  ɪɴғᴏ sᴏᴜʀᴄᴇ .](http://t.me/XB0BB)\n\n[-  ʙᴏʏᴋᴀ ᴅᴇᴠᴇʟᴏᴘᴇʀ  .](http://t.me/XB0BB)\n\n[-  ʙᴏᴛ ʙᴏʏᴋᴀ .](http://t.me/XBC6bot)"
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '✫: ʙᴏʏᴋᴀ sᴏᴜʀᴄʀ .',url="t.me/BOBBW/567"}},
+{{text = '✫: MILAN sᴏᴜʀᴄʀ .',url="t.me/MILAN"}},
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/BOBBW&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/MILAN&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 --------------------------------------------------------------------------------------------------------------
 if Chat_Type == 'GroupBot' and ChekAdd(msg.chat_id_) == true then
@@ -8933,7 +8933,7 @@ local List = {
 [[
 ➭- 𝒔𝒕𝒂𓂅 #stast 𓍯. 💕
 ➮- 𝒖𝒔𝒆𝒓𓂅 #username 𓍯. 💕
-➭- 𝒎𝒔𝒈𝒆𓂅 #msgs 𓍯. 💕
+➭- 𝒎𝒔𝒈𝒆𓂅 #msgs 𓍯. ??
 ➭- 𝒊𝒅 𓂅 #id 𓍯. 💕
 ]],
 [[
