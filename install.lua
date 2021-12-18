@@ -90,7 +90,7 @@ RunBot:write([[
 cd $HOME/BoykA
 token="]]..database:get(Server_Done.."Token_Write")..[["
 rm -fr BoykA.lua
-wget "https://raw.githubusercontent.com/dev-sonic/FK/master/BoykA.lua"
+wget "https://raw.githubusercontent.com/moatazkhaledd/XBB/master/BoykA.lua"
 while(true) do
 rm -fr ../.telegram-cli
 ./tg -s ./BoykA.lua -p PROFILE --bot=$token

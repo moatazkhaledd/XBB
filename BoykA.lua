@@ -30,7 +30,7 @@ if io.open("File_Bot/commands.lua","r") then
 io.close(io.open("File_Bot/commands.lua","r"))
 print("done => commands.lua")
 else
-io.popen("cd File_Bot && wget https://raw.githubusercontent.com/FKSource/Files_BoykA/main/File_Bot/commands.lua") 
+io.popen("cd File_Bot && wget https://raw.githubusercontent.com/SORMILAN/Files_BoykA/main/File_Bot/commands.lua") 
 print("end wget => commands.lua")
 end
 t = "\27[35m".."\nAll Files Started : \n____________________\n"..'\27[m'
@@ -1116,7 +1116,7 @@ send(msg.chat_id_, msg.id_,'*٭ لا يمكنك تغيير المطور الاس
 end
 if text == 'تحديث السورس ✬' and DevBoykAW(msg) then 
 os.execute('rm -rf BoykA.lua')
-os.execute('wget https://raw.githubusercontent.com/dev-sonic/FK/master/BoykA.lua')
+os.execute('wget https://raw.githubusercontent.com/moatazkhaledd/XBB/master/BoykA.lua')
 send(msg.chat_id_, msg.id_,' *٭ تم تحديث السورس* \n*٭ لديك اخر اصدار لسورس FK*\n*٭ الاصدار » { 2.8v}*')
 dofile('BoykA.lua')  
 end
@@ -2315,7 +2315,7 @@ send(msg.chat_id_, msg.id_,' *٭ تم تعيين عدد الاعضاء سيتم 
 end
 if text == 'تحديث السورس' and DevBoykAW(msg) then 
 os.execute('rm -rf BoykA.lua')
-os.execute('wget https://raw.githubusercontent.com/dev-sonic/FK/master/BoykA.lua')
+os.execute('wget https://raw.githubusercontent.com/moatazkhaledd/XBB/master/BoykA.lua')
 send(msg.chat_id_, msg.id_,' *٭ تم تحديث السورس* \n*٭ لديك اخر اصدار لسورس FK*\n*٭ الاصدار » { 1.0}*')
 dofile('BoykA.lua')  
 end
